@@ -864,7 +864,7 @@ border-radius:100%;
 top:280px;
 right: 72px;
 }
-.nullinfo{
+div .nullinfo{
     position: absolute;
     bottom: 10px;
     display: none;
@@ -872,6 +872,9 @@ right: 72px;
 }
 .notnull:hover .nullinfo{
     display: block;
+    cursor:pointer;
+}
+.notnull:hover{
     cursor: pointer;
 }
 .nullinfo div{
@@ -897,15 +900,16 @@ text-align: center;
     z-index:3;
 }
 .form .content{
-    width: 50%;
+    width: auto;
     min-width: 650px;
     height: 100%;
     position: absolute;
-    left: 50%;
+    right: 0px;
     z-index: 3; 
+
 }
 .form form{
-    width:100%;
+
     height: 100%;
     background-color:hsl(0, 4%, 14%);
 }
@@ -913,7 +917,7 @@ text-align: center;
     display: flex;
     flex-direction:column;
     align-items:flex-end;
-    padding-right: 150px;
+    padding-right: 2vw;
     margin-top: 10.8vh;
     justify-content: center;
     color:white;
@@ -955,6 +959,9 @@ line-height: 115.87%;
     flex-wrap: wrap;
 }
 .form .notnull{
-    top:315px;
-    left: 580px;
+    top:35px;
+    right: 20px;
+}
+.form{
+	display:none;
 }
