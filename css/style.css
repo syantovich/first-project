@@ -11,7 +11,14 @@
     height: 784px;
     min-width: 1190px;
 }
-
+.namenumber{
+    display: flex;
+    justify-content: space-between;
+    width: 66%;
+}
+.number{
+    margin-right: 100px;
+}
 header {
     height: 127px;
     display: flex;
@@ -565,6 +572,8 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    
 }
 
 .third .aboutoursite {
@@ -626,6 +635,10 @@ p {
 .fourth .buttom div {
     border: solid 1px white;
 
+}
+.img .aboutoursite{
+    position: absolute;
+    bottom:-20px
 }
 
 .fourth .secondchild {
@@ -721,6 +734,9 @@ line-height: 115.87%;
 margin-bottom: 79px;
 width: 470px;
 
+}
+.back .someline1{
+    display: none;
 }
 .back .quections div:last-of-type{
     font-family: Roboto;
@@ -906,6 +922,9 @@ text-align: center;
     left:0px;
     background: rgba(0, 0, 0, 0.38);
     z-index:3;
+}
+.form .borderform{
+    display: none;
 }
 .form .content{
     width: auto;
@@ -1145,4 +1164,273 @@ line-height: 115.87%;
     footer{
         min-width: 768px;
     }
+}
+@media all and (max-width:767px){
+    .first{
+        min-width: 360px;
+    }
+    .moreinfo{
+        font-size: 16px;
+        flex-wrap: wrap;
+        flex-direction:column;
+        align-items:flex-end;
+    }
+    .moreinfo .circle{
+        width: 46px;
+        height: 46px;
+        
+    }
+    .moreinfo .circle svg{
+        width: 25px;
+        height:26px;
+    }
+   .about .heading{
+        width:100%;
+    }
+    header{
+        height:124px;
+
+    }
+    .namenumber{
+        width: 150px;
+        flex-wrap: wrap;
+    }
+    .namenumber .number{
+        left: 0px;
+        top:22px;
+    }
+    header .moreinfo{
+        width: 50%;
+    }
+    .block{
+        display: block!important;
+        width:100%!important;
+    }
+    .first .icons{
+        height:auto;
+        width:100%;
+        flex-direction:row;
+        justify-content: left;
+        margin-top: 59px;
+        z-index: 1;
+    }
+    .icons div{
+        margin-left: 13px;
+    }
+    .heading{
+        font-size: 34px;
+    }
+    .text{
+        font-size:15.75px;
+        width:auto;
+    }
+    .background svg{
+        width: 310px;
+        height:310px;
+    }
+    .first .about .aboutus{
+        width: auto;
+        margin-left: 15px;
+        margin-top:33px;
+        min-width: auto;
+    }
+    .parentmoreinfo{
+        margin-right:3.75vw;  
+    }
+    .second{
+        min-width: 360px;
+        height:2700px;
+    }
+    .second .secondchild{
+        width:300px;
+        height:auto;
+        margin:67px calc(50% - 150px) 25px calc(50% - 150px);
+    }
+    .second .heading{
+        width: 300px;
+    }
+    .second .website .first1{
+        flex-wrap: wrap;
+        margin-bottom: 0px;
+    }
+    .second .website .first1 .content{
+        width:calc(100% - 60px);
+        margin-left:20px;
+    }
+    .second .maincontent{
+        width:100%;
+    }
+    .maincontent .heading{
+        font-size: 24px;
+    }
+    .maincontent .info{
+        font-size: 14px;
+    }
+    .second .website .moreinfo1{
+        width:100%;
+        margin-bottom: 20px;
+    }
+    .aboutsite .info{
+        width:auto;
+    }
+    .third {
+        min-width: 360px;
+        height:1000px;
+    }
+    .third .secondchild .someline{
+        width:250px;
+        left:-120px;
+        top:25px;
+    }
+    .buttom{
+        width:100%;
+    }
+    .left, .right{
+        width:30px;
+        height:30px;
+
+    }
+    .left svg,.right svg{
+        width:10;
+        height:12px;
+    }
+    .third .secondchild{
+        top:50px;
+        flex-wrap: wrap;
+
+    }
+    .third .aboutoursite{
+        height:150px;
+        width:calc(100% - 50px);
+    }
+    .third .ourwebsite {
+        width: calc(100% * 3);
+        height: 800px;
+        left: 0px;
+        top: 200px;
+    }
+    .third .site{
+        width:auto;
+    }
+    .third .site .img{
+        flex-wrap: wrap;
+        align-items:flex-start;
+        margin-left: -15px;
+        height:auto;
+        width:100vw
+    }
+    .fourth{
+        min-width: 360px;
+    }
+    .advatage {
+        top: 192px;
+        width: 300%;
+        left: 0px;
+        height: 550px;
+    }
+    .adv {
+        width: calc(100% / 3 - 35px);
+        height: 100%;
+        margin-left: 15px;
+    }
+    .fourth .secondchild{
+        flex-wrap: wrap;
+    }
+    .adv .infoadv {
+
+        left: calc(50% - 135px);
+    }
+    .adv svg{
+        left: calc(50% - 135px);
+    }
+    .fourth .secondchild .heading{
+        margin-bottom:19px;
+    }
+    .back{
+        min-width: 360px;
+    }
+    .back .someline1{
+        display: none;
+    }
+    .back .quections div:first-of-type{
+        font-size: 34px;
+        width: auto;
+    }
+    .back .quections div:last-of-type {
+        font-size: 14px;
+        width: auto;
+    }
+    .back .quections{
+        margin-left: 20px;
+    }
+    .half{
+        width: calc(100vw - 108px);
+    }
+    .email{
+        margin-left: 53px;
+    }
+    .notnull{
+        top:335px;
+        }
+    label .moreinfo{
+        width:300px;
+        font-size: 20px;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items:center;
+    }
+    .submit{
+        right: 20px;
+        top:550px
+    }
+    .moreinfo div:first-of-type {
+        line-height: 24px;
+        margin: 0px;
+        max-width: 130px;
+        display: flex;
+    }
+    footer{
+        min-width: 360px;
+    }
+    
+    .form .content{
+        min-width: 360px;
+        position: relative;
+        
+    }
+    .form form .nameform{
+        margin-top: 150px;
+    }
+    .cntr{
+        margin-bottom: -100px;
+    }
+    .form .submit{
+        top: calc(100vh - 115px);
+        height:100px;
+    }
+    .form .content .cross{
+        position: absolute;
+        top:10px;
+        right: 40px;
+        z-index: 4;
+    }
+    .form .borderform{
+        display: block;
+        position: absolute;
+        z-index: 4;
+        width:100%;
+        height:87px;
+        border-bottom:1px white solid;
+    }
+    .form .namenumber{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .form .namenumber .number{
+        margin-top: 20px;
+    }
+    .form .namenumber .path{
+        fill:white;
+    }
+
 }
