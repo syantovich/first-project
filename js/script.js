@@ -33,10 +33,12 @@ right.forEach(e=>{
 let form =document.querySelector(".form");
 let menu = document.querySelectorAll(".clickmenu");
     menu.forEach(e=>{
-        e.addEventListener("click",()=>{           
+        e.parentNode.addEventListener("click",()=>{           
             form.style.display="block";
         });
     });
-let cross=document.querySelector(".cross");
+let cross=document.querySelector(".cross"),
+    cross1=document.querySelector(".cross1");
     cross.addEventListener("click",()=>{form.style.display="none";});
+    cross1.addEventListener("click",()=>{form.style.display="none";});
 

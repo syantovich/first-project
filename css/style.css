@@ -1,6 +1,10 @@
 @import url(normalize.css);
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+
+.link:hover{
+    cursor: pointer;
+}
 .icons div svg path {
     fill: black;
 }
@@ -67,7 +71,7 @@ header .number {
 
 .icons div:nth-child(1):hover {
     background-color: #D7A781;
-    cursor: pointer;
+    
 }
 
 .icons div:nth-child(1):hover path {
@@ -76,7 +80,7 @@ header .number {
 
 .icons div:nth-child(2):hover {
     background-color: #D7A781;
-    cursor: pointer;
+  
 }
 
 .icons div:nth-child(2):hover path {
@@ -85,7 +89,7 @@ header .number {
 
 .icons div:nth-child(3):hover {
     background-color: #D7A781;
-    cursor: pointer;
+   
 }
 
 .icons div:nth-child(3):hover path {
@@ -94,7 +98,7 @@ header .number {
 
 .icons div:nth-child(4):hover {
     background-color: #D7A781;
-    cursor: pointer;
+  
 }
 
 .icons div:nth-child(4):hover path {
@@ -103,7 +107,7 @@ header .number {
 
 .icons div:nth-child(5):hover {
     background-color: #D7A781;
-    cursor: pointer;
+   
 }
 
 .icons div:nth-child(5):hover path {
@@ -304,22 +308,22 @@ p {
 
 .website .content:nth-child(1):hover .moreinfo1 {
     display: block;
-    cursor: pointer;
+   
 }
 
 .website .content:nth-child(2):hover .moreinfo1 {
     display: block;
-    cursor: pointer;
+  
 }
 
 .website .content:nth-child(3):hover .moreinfo1 {
     display: block;
-    cursor: pointer;
+  
 }
 
 .website .content:nth-child(4):hover .moreinfo1 {
     display: block;
-    cursor: pointer;
+    
 }
 
 .website .maincontent .picture div {
@@ -599,29 +603,19 @@ p {
     line-height: 149.87%;
 }
 
-.third .site:nth-child(1):hover {
-    cursor: pointer;
-}
-
 .third .site:nth-child(1):hover .landingpage {
     color: #BA9E7C;
 }
 
-.third .site:nth-child(2):hover {
-    cursor: pointer;
-}
 
 .third .site:nth-child(2):hover .landingpage {
     color: #BA9E7C;
 }
-
-.third .site:nth-child(3):hover {
-    cursor: pointer;
-}
-
 .third .site:nth-child(3):hover .landingpage {
     color: #BA9E7C;
 }
+
+
 
 .fourth {
     height: 837px;
@@ -900,11 +894,9 @@ div .nullinfo{
 }
 .notnull:hover .nullinfo{
     display: block;
-    cursor:pointer;
+
 }
-.notnull:hover{
-    cursor: pointer;
-}
+
 .nullinfo div{
     position: absolute;
     top: 20px;
@@ -1003,6 +995,9 @@ line-height: 115.87%;
     top:10px;
     right: 40px;
     z-index: 4;
+}
+.cross1{
+    display: none;
 }
 @media all and (max-width:1189px){
     .town{
@@ -1410,7 +1405,11 @@ line-height: 115.87%;
         
     }
     .form form .nameform{
-        margin-top: 150px;
+        margin-top: 80px;
+        padding-right: 10vw;
+    }
+    .cross{
+        display: none;
     }
     .cntr{
         margin-bottom: -100px;
@@ -1427,6 +1426,10 @@ line-height: 115.87%;
         height:87px;
         border-bottom:1px white solid;
     }
+    .form .nameform{
+        margin-top: 0px;
+        padding-right: 0px;
+    }
     .form .namenumber{
         margin-top: 20px;
         margin-left: 20px;
@@ -1436,6 +1439,13 @@ line-height: 115.87%;
     }
     .form .namenumber .path{
         fill:white;
+    }
+    .form .content .cross1{
+        display: block;
+        position: absolute;
+        top:10px;
+        right: 30px;
+        z-index: 4;
     }
     
 
