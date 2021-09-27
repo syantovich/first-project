@@ -29,7 +29,7 @@ right.forEach(e=>{
         
     
     });
-});
+}); 
 let form =document.querySelector(".form");
 let menu = document.querySelectorAll(".clickmenu");
     menu.forEach(e=>{
