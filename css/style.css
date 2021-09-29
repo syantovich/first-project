@@ -218,6 +218,7 @@ header .number {
 .town img {
     max-width: 45vw;
     height: 875px;
+    object-fit: cover;
 }
 
 .second {
